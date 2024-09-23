@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [purplle]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browser1" value="Edge"/>
+  <listeners>
+    <listener class-name="com.purplle.Transform"/>
+  </listeners>
+  <test name="Test1">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.purplle.data"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <parameter name="browser1" value="Edge"/>
+    <classes>
+      <class name="com.purplle.Alfakhr"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test parallel="tests" name="Test2(failed)">
+    <parameter name="browser1" value="Edge"/>
+    <classes>
+      <class name="com.purplle.data">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="close_the_Application"/>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.purplle.data -->
+      <class name="com.purplle.Alfakhr">
+        <methods>
+          <include name="Enter_The_website1"/>
+          <include name="click_on_Alfakhr"/>
+        </methods>
+      </class> <!-- com.purplle.Alfakhr -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test parallel="tests" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.purplle.data">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="click_on_AcneSquad"/>
+          <include name="close_the_Application"/>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.purplle.data -->
+      <class name="com.purplle.Alfakhr">
+        <methods>
+          <include name="Enter_The_website1"/>
+        </methods>
+      </class> <!-- com.purplle.Alfakhr -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [purplle] -->

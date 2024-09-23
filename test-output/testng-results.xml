@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="6" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-22T07:14:16Z" name="purplle" finished-at="2024-09-22T07:14:56Z" duration-ms="40606">
+    <groups>
+      <group name="two">
+        <method signature="Alfakhr.click_on_Alfakhr(java.lang.String)[pri:-8, instance:com.purplle.Alfakhr@e383572]" name="click_on_Alfakhr" class="com.purplle.Alfakhr"/>
+        <method signature="Alfakhr.click_on_Brands()[pri:-9, instance:com.purplle.Alfakhr@e383572]" name="click_on_Brands" class="com.purplle.Alfakhr"/>
+      </group> <!-- two -->
+      <group name="plus">
+        <method signature="Alfakhr.validate_on_Alfakhr()[pri:-7, instance:com.purplle.Alfakhr@e383572]" name="validate_on_Alfakhr" class="com.purplle.Alfakhr"/>
+      </group> <!-- plus -->
+    </groups>
+    <test started-at="2024-09-22T07:14:16Z" name="Test2" finished-at="2024-09-22T07:14:51Z" duration-ms="35088">
+      <class name="com.purplle.Alfakhr">
+        <test-method is-config="true" signature="Enter_The_website1()[pri:0, instance:com.purplle.Alfakhr@e383572]" started-at="2024-09-22T12:44:16Z" name="Enter_The_website1" test-instance-name="" finished-at="2024-09-22T12:44:30Z" duration-ms="14442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_The_website1 -->
+        <test-method signature="click_on_Brands()[pri:-9, instance:com.purplle.Alfakhr@e383572]" started-at="2024-09-22T12:44:30Z" name="click_on_Brands" test-instance-name="" finished-at="2024-09-22T12:44:31Z" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Brands -->
+        <test-method signature="click_on_Alfakhr(java.lang.String)[pri:-8, instance:com.purplle.Alfakhr@e383572]" started-at="2024-09-22T12:44:31Z" name="click_on_Alfakhr" data-provider="product" test-instance-name="" finished-at="2024-09-22T12:44:31Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object[] com.purplle.Alfakhr.dataName() must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.Object;]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[] com.purplle.Alfakhr.dataName() must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.Object;
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Alfakhr -->
+        <test-method signature="validate_on_Alfakhr()[pri:-7, instance:com.purplle.Alfakhr@e383572]" started-at="2024-09-22T12:44:31Z" name="validate_on_Alfakhr" test-instance-name="" finished-at="2024-09-22T12:44:51Z" duration-ms="20054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_on_Alfakhr -->
+      </class> <!-- com.purplle.Alfakhr -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-09-22T07:14:16Z" name="Test1" finished-at="2024-09-22T07:14:56Z" duration-ms="40606">
+      <class name="com.purplle.data">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:16Z" name="beforeclass" test-instance-name="" finished-at="2024-09-22T12:44:16Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:16Z" name="before" test-instance-name="" finished-at="2024-09-22T12:44:16Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Enter_the_website()[pri:-10, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:16Z" name="Enter_the_website" test-instance-name="" finished-at="2024-09-22T12:44:31Z" duration-ms="14760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_the_website -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:31Z" name="after" test-instance-name="" finished-at="2024-09-22T12:44:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="click_on_Brands()[pri:-9, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:31Z" name="click_on_Brands" test-instance-name="" finished-at="2024-09-22T12:44:31Z" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Brands -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:31Z" name="before" test-instance-name="" finished-at="2024-09-22T12:44:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:31Z" name="after" test-instance-name="" finished-at="2024-09-22T12:44:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="click_on_AcneSquad(java.lang.String)[pri:-8, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:31Z" name="click_on_AcneSquad" test-instance-name="" finished-at="2024-09-22T12:44:31Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method click_on_AcneSquad requires 1 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method click_on_AcneSquad requires 1 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_AcneSquad -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:31Z" name="before" test-instance-name="" finished-at="2024-09-22T12:44:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="validate_on_AcneSquad()[pri:-7, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:31Z" name="validate_on_AcneSquad" test-instance-name="" finished-at="2024-09-22T12:44:51Z" duration-ms="20085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_on_AcneSquad -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:51Z" name="after" test-instance-name="" finished-at="2024-09-22T12:44:51Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="before()[pri:0, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:51Z" name="before" test-instance-name="" finished-at="2024-09-22T12:44:51Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="setUp(java.lang.String)[pri:0, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:51Z" name="setUp" test-instance-name="" finished-at="2024-09-22T12:44:56Z" duration-ms="5183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:56Z" name="after" test-instance-name="" finished-at="2024-09-22T12:44:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="close_the_Application()[pri:0, instance:com.purplle.data@5c2375a9]" started-at="2024-09-22T12:44:56Z" name="close_the_Application" test-instance-name="" finished-at="2024-09-22T12:44:56Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_the_Application -->
+      </class> <!-- com.purplle.data -->
+    </test> <!-- Test1 -->
+  </suite> <!-- purplle -->
+</testng-results>

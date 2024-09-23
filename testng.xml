@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="purplle" parallel="tests" thread-count="2">
+<listeners>
+<listener class-name="com.purplle.Transform"></listener>
+</listeners>
+  <test name="Test1" >
+  <parameter name="browser" value="chrome"></parameter>
+     <classes>
+      <class name="com.purplle.data"/>
+       </classes>
+        </test>
+        <test name="Test2" >
+  <parameter name="browser1" value="Edge"></parameter>
+      <classes>
+      <class name="com.purplle.Alfakhr"/>
+      </classes>
+      </test> <!-- Test -->
+</suite> <!-- Suite -->
