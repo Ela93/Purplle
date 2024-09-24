@@ -7,7 +7,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -28,11 +28,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
    public class data {
    
-static WebDriver driver;
-@DataProvider(name="product")
-   public Object[] dataName(){
-		return new Object[] {"Acne Squad"};
-   }
+//static WebDriver driver;
+//@DataProvider(name="product")
+//   public Object[] dataName(){
+//		return new Object[] {"Acne Squad"};
+//   }
    
 @BeforeClass
 public void beforeclass() {
