@@ -28,6 +28,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
    public class data {
    
+private By driver;
+
 //static WebDriver driver;
 //@DataProvider(name="product")
 //   public Object[] dataName(){
@@ -119,7 +121,7 @@ public static void setUp(@Optional("Chorme") String arg) {
       public void validate_on_AcneSquad() {
         try {
     	List<WebElement> tables =driver.findElements(By.xpath("//div[@class='pb-1 mb-1 fs-7 text-start text-black lh-base truncate-2-lines']"));
-        List<String>text= new ArrayList<String>();
+       List<String>text= new ArrayList<String>();
         text.add(" Acne Squad Serum for Acne Scars with Triple Concentrate Formula ");
         text.add(" Acne Squad Pore Minimising Super Shield Serum Jelly with 10% Niacinamide 30ml ");
         text.add(" Acne Squad Breakout Terminator Back & Body Spray with 2% Salicylic Acid & Glycolic Acid 100 ml ");
@@ -142,7 +144,8 @@ public static void setUp(@Optional("Chorme") String arg) {
 
         }        }
 
-}
+} 
+
 
     
     
